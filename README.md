@@ -41,7 +41,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-This is to showcase javascript skill.
+This is to showcase javascript ES6 skills using webpack.
 
 - **ES 6 Module**
 
@@ -90,7 +90,7 @@ To run the project, execute the following command:
 
 ### Live Demo
 
-- Live Demo: [@Live](https://sawmon71293.github.io/ToDoList/)
+- Live Demo: [@Live](https://sawmon71293.github.io/PeerCodeReview/)
 
 <!-- AUTHORS -->
 
@@ -108,7 +108,6 @@ To run the project, execute the following command:
 
 I plan to add more features this project:
 
-- [ ] **Implement a nice UI for great user experience**
 - [ ] **Add more functionalities**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
