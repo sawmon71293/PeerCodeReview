@@ -22,5 +22,6 @@
       }
     ]
   },
-  "ignorePatterns": ["dist/", "build/"]
+  "ignorePatterns": ["dist/", "build/"],
+  "ignoreFiles": ["dist"]
 }

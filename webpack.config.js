@@ -5,7 +5,7 @@ import CopyPlugin from 'copy-webpack-plugin';
 const __dirname = path.resolve();
 
 export default {
-  mode: 'development',
+  mode: 'production',
   module: {
     rules: [
       {
@@ -34,7 +34,7 @@ export default {
       patterns: [
         {
           from: "src/assets/images/*.png",
-          to({ context, absoluteFilename }) {
+          to() {
             return Promise.resolve("dest/newPath/[name][ext]");
           },
         },
@@ -43,7 +43,7 @@ export default {
   ],
   output: {
     filename: '[name].[chunkhash].js',
-    publicPath: '/',
+    publicPath: '/PeerCodeReview/',
     path: path.resolve(__dirname, 'dist'),
     assetModuleFilename: './src/asset/[name].[ext]',
     chunkFilename: '[name].[chunkhash].js',
