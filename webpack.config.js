@@ -43,7 +43,7 @@ export default {
   ],
   output: {
     filename: '[name].[chunkhash].js',
-    publicPath: '/',
+    publicPath: '/PeerCodeReview/',
     path: path.resolve(__dirname, 'dist'),
     assetModuleFilename: './src/asset/[name].[ext]',
     chunkFilename: '[name].[chunkhash].js',
