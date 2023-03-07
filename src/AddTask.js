@@ -10,6 +10,7 @@ const AddTask = () => {
   };
 
   tasks.push(newTask);
+  document.getElementById('add').value = '';
   LoadTask(tasks);
   localStorage.setItem('tasks', JSON.stringify(tasks));
 };
